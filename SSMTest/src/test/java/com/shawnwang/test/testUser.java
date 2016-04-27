@@ -36,4 +36,9 @@ public class testUser {
 		logger.info(JSON.toJSONString(user));
 		System.out.println("success2");
 	}
+	@Test
+	public void test2(){
+		User user=userService.getUserById(1);
+		System.out.println(user);
+	}
 }
